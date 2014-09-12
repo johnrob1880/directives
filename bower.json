@@ -1,0 +1,19 @@
+{
+  "name": "directives",
+  "version": "0.0.1",
+  "homepage": "https://github.com/johnrob1880/directives",
+  "authors": [
+    "johnrob1880@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.24"
+  }
+}

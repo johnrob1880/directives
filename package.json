@@ -1,0 +1,26 @@
+{
+  "name": "johnrob1880-directives",
+  "version": "0.0.1",
+  "description": "AngularJS Directives",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnrob1880/directives.git"
+  },
+  "keywords": [
+    "angularjs",
+    "directives"
+  ],
+  "author": "John Robinson",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/johnrob1880/directives/issues"
+  },
+  "homepage": "https://github.com/johnrob1880/directives",
+  "directories": {
+    "example": "examples"
+  }
+}

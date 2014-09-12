@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="directiveExamplesApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hovercon Demo One</title>
+    <link rel="stylesheet" href="./../../bower_components/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="./../../dist/hovercon/less/hovercon.css" />
+</head>
+<body ng-controller="mainCtrl">
+
+    <i class="fa fa-gears fa-2x" hovercon="color: orange; background: black; animate: [spin];" when-click="iconClick()"></i>
+    <i class="fa fa-image fa-2x" hovercon="color: red; background: black; animate: spin"></i>
+    <i class="fa fa-inbox fa-2x" hovercon="color: green; animate: spin"></i>
+    <i class="fa fa-smile-o fa-2x" hovercon="animate: spin"></i>
+
+    <script src="./../../bower_components/angularjs/angular.js"></script>
+    <script src="./../../src/hovercon/hovercon.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>

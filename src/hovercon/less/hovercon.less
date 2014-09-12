@@ -1,0 +1,50 @@
+@-webkit-keyframes spinAround {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hovercon {
+  box-shadow: 0 0 0 4px rgba(255,255,255,1);
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+  /*font-size: 2em;*/
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #000;
+  background: #ebebeb;
+
+  &.hovercon-spin {
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+  }
+  &.hovercon-spin:hover {
+    -webkit-animation: spinAround .4s;
+    animation: spinAround .4s;
+  }
+  &.hovercon-clicked {
+    border: 3px solid limegreen;
+  }
+}
